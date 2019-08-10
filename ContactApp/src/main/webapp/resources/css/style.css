@@ -1,0 +1,97 @@
+
+body{
+    overflow: auto;
+     
+    
+}
+/* ----- css for index page -------*/
+.header-div{
+    background: pink; 
+    text-align: center;
+    font-size: 25px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
+.menus-div{
+    background: pink; 
+    margin-top: 2px;
+    padding-left: 10px;
+}
+.menus-div a{
+    font-size: 20px;
+    color: black;
+}
+.content-div{
+    background: lightblue;
+    margin-top: 2px;
+}
+/*--- reg form code */
+.reg-form{
+    padding: 20px;
+
+}
+ .reg-form table{
+    border: 2px solid lightblue;
+    background: white;
+    margin: 0 auto;
+}
+.reg-form table tr{
+    border: 2px solid lightblue;
+}
+ .reg-form table tr td{
+    padding: 10px;
+    font-size: 18px;
+}
+.reg-form table tr td input{
+    padding: 5px;
+}
+/*--- login form css */
+.login-form{
+    padding: 20px;
+
+}
+.login-form table{
+    border: 2px solid lightblue;
+    background: white;
+    margin: 0 auto;
+}
+.login-form table tr{
+    border: 2px solid lightblue;
+}
+.login-form table tr td{
+    padding: 10px;
+    font-size: 18px;
+}
+.login-form table tr td input{
+    padding: 5px;
+}
+
+.footer-div{
+    background: pink;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  margin-top: 2px;
+}

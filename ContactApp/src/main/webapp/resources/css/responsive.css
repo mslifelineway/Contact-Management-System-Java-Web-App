@@ -1,0 +1,267 @@
+/*-- responsive css for left sidenav or left sidebar --*/
+@media (max-width: 993px)
+{
+    .leftSidenav {
+        height: 30px;
+        padding-top: 5px;
+        margin: 0;
+    }
+    .leftSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+        
+    }
+    .leftSidenav ul li{
+        width: 100%;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px;
+        
+      }
+    .leftSidenav span{
+        font-size: 20px;
+    } 
+	 .leftSidenav #leftSideNavAds {
+    display: none;
+	}
+}
+@media (max-width: 768px)
+{
+    .leftSidenav {
+        padding-top: 5px;
+    }
+    .leftSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+    }
+    .leftSidenav ul li{
+        width: 100%;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px; 
+        
+      }
+    .leftSidenav span{
+        font-size: 25px;
+    }
+	 .leftSidenav #leftSideNavAds {
+    display: none;
+	}
+}
+@media (max-width: 767px)
+{
+    .leftSidenav {
+        padding-top: 5px;
+    }
+    .leftSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+    }
+    .leftSidenav ul li{
+        
+       font-size: 0px;margin:0;padding:0;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px; 
+      }
+    .leftSidenav span{
+        font-size: 20px;
+    } 
+}
+@media (max-width: 425px)
+{
+    .leftSidenav {
+        padding-top: 5px;
+    }
+    .leftSidenav ul{
+        display: flex;
+       
+        font-family: "serif",sans-serif;
+    }
+    .leftSidenav ul li{
+        
+       font-size: 0px;margin:0;padding:0;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px; 
+      }
+    .leftSidenav span{
+        font-size: 18px;
+    }
+}
+@media (max-width: 375px)
+{
+    .leftSidenav {
+        padding-top: 5px;
+    }
+    .leftSidenav ul{
+        display: flex;
+       
+        font-family: "serif",sans-serif;
+    }
+    .leftSidenav ul li{
+        
+       font-size: 0px;margin:0;padding:0;
+        text-align: center;
+    }
+    .row{
+         padding-top: 0px; 
+      }
+    .leftSidenav span{
+        font-size: 18px;
+    }
+   
+
+}
+@media (max-width: 320px)
+{
+    .leftSidenav {
+        padding-top: 10px;
+    }
+    .leftSidenav ul{
+        display: flex;
+        margin:0;
+        padding:0;
+        font-family: "serif",sans-serif;
+    }
+    .leftSidenav ul li{
+        
+       font-size: 0px;margin:0;padding:0;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px; 
+      }
+    .leftSidenav span{
+        font-size: 15px;
+    }
+   
+
+}
+/*--- responsive css for right sidenav or sidebar */
+
+@media (max-width: 993px)
+{
+    #admin_account_email {
+        display: none;
+    }
+    .rightSidenav {
+       height: 30px;
+       position: fixed;
+        bottom: 41px;
+        width: 100%;
+        margin: 0;
+        padding-top: 0px;
+        background: #f5f5f5;
+        border-top: 1px solid #bbb;
+    }
+    .rightSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+        width: 100%;
+        text-align: center;
+       
+    }
+
+}
+@media (max-width: 768px)
+{
+    
+    .rightSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+        width: 100%;
+        text-align: center
+    }
+
+}
+@media (max-width: 767px)
+{
+    .rightSidenav ul{
+        display: flex;
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+        width: 100%;
+        text-align: center
+    }
+    .row{
+         padding-top: 0px; 
+        
+      }
+
+}
+@media (max-width: 425px)
+{
+    
+    .rightSidenav ul{
+        display: flex;
+       
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+       width: 100%;
+        text-align: center
+    }
+}
+@media (max-width: 375px)
+{
+   .rightSidenav{
+        padding-top: 2px;
+    }
+    .rightSidenav ul{
+        display: flex;
+       
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+       width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (max-width: 320px)
+{
+    .rightSidenav{
+        padding-top: 2px;
+    }
+    .rightSidenav ul{
+        display: flex;
+        
+        font-family: "serif",sans-serif;
+    }
+    .rightSidenav ul li{
+       width: 100%;
+        font-size: 12px;
+        text-align: center
+    }
+}
+
+/*--- code from 4techblogger.com---*/
+
+@media (max-width: 425px)
+{
+    .pst{
+        width: 100%;
+        margin:0px;
+    }
+    .pst .icn .btn{
+        margin: 0 1.5px 0 1.5px;
+    }
+    .pst .icn .btn{
+        font-size: 10px;
+    }
+    .pst .icn .btn:focus{
+        outline: none;
+        box-shadow: 0;
+        border: none;
+    }
+}
